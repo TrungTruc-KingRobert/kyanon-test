@@ -10,3 +10,7 @@ This is to reinstall node_modules for the project.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### Analyze the authentication flow for the login page
+
+You can see it in "Authentication flow for the login page.pdf"
