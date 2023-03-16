@@ -1,0 +1,206 @@
+.landing {
+  position: relative;
+  height: 100vh;
+}
+
+.dark-overlay {
+  background-color: #f4f4f4;
+  height: 100%;
+}
+
+.landing-inner {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.landing-inner .btn-goto {
+  margin-top: 10px;
+  height: 40px;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+  background-color: #66ff00;
+  color: #000000;
+  cursor: pointer;
+}
+
+.landing-inner .btn-goto:hover {
+background-color: #88ff00;
+}
+
+.landing-inner .btn-goto:active {
+background-color: #7bff00;
+}
+
+.landing-inner .card {
+  width: 350px;
+  height: 500px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card .loginform > input {
+  width: 90%;
+  height: 2rem;
+  border: solid 2px #d2d2d5;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.card .loginform > label {
+  width: 90%;
+  font-weight: 700;
+  color: #6547e4;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form__showinfo {
+  margin-top: 5px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Login form */
+.card .loginform .loginform__title {
+  font-weight: 700;
+}
+
+.card .loginform .loginform__footer {
+  width: 90%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.loginform__footer .checkbox {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.loginform__footer .checkbox .box {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.loginform__footer .checkbox label {
+  font-weight: 700;
+}
+
+.loginform__footer .btn-signin {
+  width: 30%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+  background-color: #2e09db;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.loginform__footer .btn-signin:hover {
+  background-color: #0069d9;
+}
+
+.loginform__footer .btn-signin:active {
+  background-color: #0062cc;
+}
+
+/* Profile form */
+.card .profileform > input {
+  width: 90%;
+  height: 2rem;
+  border: solid 2px #d2d2d5;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.card .profileform > label {
+  width: 90%;
+  color: #b8babe;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card .profileform .profileform__title {
+  font-weight: 700;
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.card .profileform .profileform__footer {
+  margin-top: 15px;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profileform__footer .btn-update {
+  width: 20%;
+  height: 26px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+  background-color: #2e09db;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.profileform__footer .btn-update:hover {
+  background-color: #0069d9;
+}
+
+.profileform__footer .btn-update:active {
+  background-color: #0062cc;
+}
+
+.profileform__footer .btn-cancel {
+  width: 20%;
+  height: 26px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+  background-color: #f6f4ff;
+  color: #007bff;
+  cursor: pointer;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.profileform__footer .btn-cancel:hover {
+  background-color: #e1e0e9;
+}
+
+.profileform__footer .btn-cancel:active {
+  background-color: #e1ddf7;
+}
